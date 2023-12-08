@@ -11,7 +11,7 @@ const Header = props => {
 
   return (
     <div className="header-container">
-      <Link to="/">
+      <Link to="/"> // we userd Link for changing the route path
         <img
           className="login-image"
           src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
